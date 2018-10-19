@@ -1,0 +1,31 @@
+
+body {
+  background-color: white;
+  text-align: center;
+}
+
+.colorBlue {
+  color: blue;
+}
+
+p {
+  font-size: 16px;
+  font-family: Garamond;
+  text-align: center;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+li {
+  font-family: Garamond;
+  text-align: center;
+}
+
+[img] {
+  border-width: 30px;
+  border-color: black;
+}
+
+table{
+  text-align: center;
+}
