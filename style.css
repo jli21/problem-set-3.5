@@ -1,3 +1,7 @@
+* {
+  color : black;
+  font-family: Garamond;
+}
 
 body {
   background-color: white;
@@ -6,6 +10,19 @@ body {
 
 .colorBlue {
   color: blue;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.blue-bg {
+  background : blue;
+  border-style: outset;
+}
+
+.white {
+  color : white;
 }
 
 p {
@@ -21,11 +38,49 @@ li {
   text-align: center;
 }
 
-[img] {
+img {
   border-width: 30px;
   border-color: black;
 }
 
-table{
-  text-align: center;
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+th {
+    height: 50px;
+}
+
+a[href$=".com"] {
+  font-style: italic;
+}
+
+a[href$=".html"] {
+  color: blue;
+}
+
+#borderoutset {
+  border: 2px black solid;
+  border-style: outset;
+}
+
+#table {
+  background-color: light blue;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+button:hover {
+  color: blue;
+}
+
+img {
+    border-radius: 8px;
 }
