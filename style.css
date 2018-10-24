@@ -1,6 +1,8 @@
 * {
   color : black;
   font-family: Garamond;
+  font-size: 20px;
+  padding: 25px 25px 25px 25px;
 }
 
 body {
@@ -8,12 +10,23 @@ body {
   text-align: center;
 }
 
-.colorBlue {
-  color: blue;
+h1 {
+  font-size: 30px;
 }
 
-.bold {
-  font-weight: bold;
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.colorBlue {
+  color: blue;
+  font-family: sans-serif;
+  border-style: double;
+  border-width: thin;
 }
 
 .blue-bg {
@@ -26,7 +39,7 @@ body {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-family: Garamond;
   text-align: center;
   margin-right: 120px;
@@ -36,11 +49,6 @@ p {
 li {
   font-family: Garamond;
   text-align: center;
-}
-
-img {
-  border-width: 30px;
-  border-color: black;
 }
 
 table.center {
@@ -62,6 +70,21 @@ a[href$=".com"] {
 
 a[href$=".html"] {
   color: blue;
+  text-decoration: none;
+}
+
+a[href*=".com"]
+{
+  font-style: italic;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
 }
 
 #borderoutset {
@@ -69,12 +92,8 @@ a[href$=".html"] {
   border-style: outset;
 }
 
-#table {
-  background-color: light blue;
-}
-
-#bold {
-  font-weight: bold;
+#list {
+  text-align: center;
 }
 
 button:hover {
@@ -82,5 +101,7 @@ button:hover {
 }
 
 img {
-    border-radius: 8px;
+    border-radius: 100px;
+    border-color: black;
+    border-width: 10px;
 }
